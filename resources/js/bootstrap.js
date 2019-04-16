@@ -54,3 +54,6 @@ if (token) {
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     encrypted: true
 // });
+
+//sweetalert 可以用来展示比较美观的弹出提示框
+require('sweetalert');
