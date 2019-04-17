@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'PagesController@root')->name('root');
+//Route::get('/', 'PagesController@root')->name('root');
 
 //['verify' => true]:启用与邮箱验证相关的路由
 Auth::routes(['verify' => true]);
